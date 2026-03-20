@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find D:carbon-emission-calculatorfreight-calculator/src -type f \\\\\\(-name *.html -o -name *.ts -o -name *.css \\\\\\))",
+      "Bash(tree -L 3 /d/carbon-emission-calculator/backend --ignore node_modules)",
+      "Bash(find /d/carbon-emission-calculator/backend -not -path */node_modules/* -type f)",
+      "Bash(npm install:*)",
+      "Bash(curl -s -X POST http://localhost:8000/carbonEmission/truckTypes -H \"Content-Type: application/json\" -d \"{}\")",
+      "Bash(curl:*)",
+      "Bash(npx ng:*)",
+      "Bash(node:*)"
+    ]
+  }
+}
