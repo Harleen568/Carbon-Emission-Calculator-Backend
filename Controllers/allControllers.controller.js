@@ -1209,7 +1209,7 @@ async function truckTypes(req, res) {
       { fullType: "Truck - Rigid (HDV 20.0-25.0 t GVW)", vehicleType: "Rigid",  avgWeight: "22.5" },
       { fullType: "Truck - Rigid (HDV 25.0-31.0 t GVW)", vehicleType: "Rigid", avgWeight: "28.0" },
       { fullType: "Truck - Rigid (HDV >31.0 t GVW)", vehicleType: "Rigid",  avgWeight: "32.0" },
-      { fullType: "Truck - Articulated (HDV up to 18.0 t GVW)", vehicleType: "Articulated", avgWeight: "18.0" },
+      { fullType: "Truck - Articulated (HDV up to 18.0 t GVW)", vehicleType: "Articulated", avgWeight: "17.0" },
       { fullType: "Truck - Articulated (HDV 18.0-27.0 t GVW)", vehicleType: "Articulated", avgWeight: "22.5" },
       { fullType: "Truck - Articulated (HDV 27.0-35.0 t GVW)", vehicleType: "Articulated", avgWeight: "31.0" },
       { fullType: "Truck - Articulated (HDV 35.0-40.0 t GVW)", vehicleType: "Articulated", avgWeight: "37.5" },
@@ -1243,7 +1243,7 @@ async function truckTypes(req, res) {
       { fullType: "Truck - Rigid (MDV 14-24 t GVW)", vehicleType: "Rigid", avgWeight: "19.5" },
       { fullType: "Truck - Rigid (HDV 24-25 t GVW)", vehicleType: "Rigid",  avgWeight: "24.5" },
       { fullType: "Truck - Rigid (HDV 25-29 t GVW)", vehicleType: "Rigid",  avgWeight: "27.5" },
-      { fullType: "Truck - Rigid (HDV 29-31 t GVW)", vehicleType: "Rigid",  avgWeight: "30.5" },
+      { fullType: "Truck - Rigid (HDV 29-31 t GVW)", vehicleType: "Rigid",  avgWeight: "30.0" },
       { fullType: "Truck - Rigid (HDV 31-60 t GVW)", vehicleType: "Rigid",  avgWeight: "46.0" },
 
       { fullType: "Truck - Rigid (LDV up to 4.5 t GVW)", vehicleType: "Rigid", avgWeight: "3.0" },
